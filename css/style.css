@@ -1,0 +1,19 @@
+  body {
+    min-height: 1000px;
+  }
+  
+  /* CSS untuk tombol */
+  .fixed-button {
+    position: fixed; /* Membuat tombol tetap di tempatnya */
+    left: 50%; /* Menetapkan posisi horizontal ke tengah */
+    transform: translateX(-50%); /* Menggeser tombol ke kiri sejauh setengah lebar tombol */
+    bottom: 20px; /* Menetapkan posisi vertical dari bawah */
+    padding: 10px 20px; /* Padding tombol */
+    background-color: #25D366; /* Warna latar belakang tombol */
+    color: #fff; /* Warna teks tombol */
+    border: none; /* Menghapus border tombol */
+    border-radius: 5px; /* Membuat sudut tombol menjadi bulat */
+    cursor: pointer; /* Mengubah cursor menjadi tanda tangan ketika mengarahkan ke tombol */
+    text-decoration: none;
+}
+
